@@ -7,7 +7,7 @@
 .app {
   width: 100vw;
   height: 100vh;
-  background: url("https://bit.ly/2Oqwxjc") no-repeat center center fixed;
+  background: url("https://bit.ly/34mN4uc") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,7 +20,7 @@
 .resp-form {
   width: 70%;
   height: 60%;
-  background-color: wheat;
+  background-color: rgb(180, 185, 190);
 }
 
 /* https://bit.ly/34mN4uc */
