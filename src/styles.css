@@ -6,7 +6,6 @@
 
 .app {
   width: 100vw;
-  height: 100vh;
   background: url("https://bit.ly/34mN4uc") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -19,13 +18,25 @@
 
 .resp-form {
   width: 70%;
-  height: 60%;
+  height: auto;
   background-color: rgb(180, 185, 190);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
 }
 
 .heading {
   text-align: center;
   margin: 20px;
+}
+
+label {
+  display: block;
+}
+
+.form-btn {
+  width: 100%;
 }
 
 /* https://bit.ly/34mN4uc */
