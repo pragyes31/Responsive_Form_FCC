@@ -6,7 +6,14 @@
 
 .app {
   width: 100vw;
-  background: url("https://bit.ly/34mN4uc") no-repeat center center fixed;
+  background: repeating-linear-gradient(
+    45deg,
+    #f6b162 0px,
+    #f6b162 40px,
+    #0ca8a3 40px,
+    #0ca8a3 80px
+  );
+  /* background: url("https://bit.ly/34mN4uc") no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,12 +27,13 @@
 .resp-form {
   width: 70%;
   height: auto;
-  background-color: rgb(180, 185, 190);
+  background-color: #0ca8a3;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px;
   padding: 20px 0px;
+  color: #fff;
 }
 
 .heading {
@@ -34,13 +42,20 @@
 }
 
 .form-field {
-  border: 1px solid grey;
+  border: 1px solid #4bbc8e;
   border-radius: 2px;
   margin: 10px;
 }
 
 label {
   display: block;
+  margin: 5px 15px;
+}
+
+.form-input,
+textarea {
+  margin: 10px 15px;
+  outline: none;
 }
 
 .form-btn {
