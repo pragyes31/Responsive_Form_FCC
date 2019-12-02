@@ -33,11 +33,17 @@
   border-radius: 20px;
 }
 
-.heading {
+#title {
   text-align: center;
   font-size: 30px;
   font-weight: 300;
   font-family: "Solway", serif;
+  margin-top: 15px;
+}
+
+#description {
+  text-align: center;
+  color: #ddc;
 }
 
 .form-field {
@@ -49,6 +55,11 @@ label {
   display: block;
   margin-bottom: 5px;
   font-family: "Solway", serif;
+}
+
+::placeholder {
+  color: #ddd;
+  font-size: 12px;
 }
 
 input[type="radio"] {
